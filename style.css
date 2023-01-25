@@ -2,9 +2,10 @@
 body {
     overflow-x: hidden;
     scroll-behavior: smooth;
-/*     background-image: url("sky.jpg"); */
+    background-image: url("sky.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 
 .navb {
