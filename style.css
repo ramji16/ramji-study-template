@@ -1,0 +1,356 @@
+/********************HOME PAGE****************/
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-image: url("sky.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navb {
+    background-color: #0A2647;
+}
+
+#fontc {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: Light 300;
+}
+
+#fontc:hover {
+    color: #F49D1A;
+}
+
+.caro {
+    position: absolute;
+}
+
+.cont {
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    top: 10em;
+    margin-top: 10em;
+}
+
+.heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+}
+
+.contbtn {
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    height: 3em;
+    width: 9em;
+    font-weight: 400;
+}
+
+.contbtn:hover {
+    background-color: #0A2647;
+    color: white;
+}
+
+.homebox {
+    background-color: #0A2647;
+    /* height:9em;
+       width:20em; */
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    display: flex;
+    margin: 2em;
+}
+
+.main-homec {
+    position: relative;
+    /* display: flex; */
+    margin-top: 20em;
+    padding: 15px;
+
+}
+
+.homec {
+    color: white;
+    padding: 20px;
+    line-height: 1em;
+    padding-top: 2em;
+    padding-left: 1em;
+}
+
+.homei {
+    position: relative;
+    top: 2em;
+    right: 1.5em;
+}
+
+/********************ABOUT US****************/
+
+.form-main {
+    background-color: #EEEEEE;
+    padding: 20px;
+}
+
+.form-des {
+    border: none;
+    height: 3em;
+    width: 30em;
+}
+
+input::placeholder {
+    font-weight: lighter;
+    padding-left: 1em;
+}
+
+.sub {
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+.sub:hover {
+    background-color: #0A2647;
+    color: white;
+}
+
+/********************SERVICES****************/
+
+#service-box {
+    background-color: white;
+    margin: 2em;
+    text-align: center;
+    padding: 40px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+#service-box:hover {
+    background-color: #F8FFDB;
+    transition: 1s;
+    border: 1px solid #B3541E;
+}
+
+.service-box-1 {
+    background-image: url("laptop.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+.service-box-1:hover {
+    background-image: url("laptop-hove.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+.service-box-2 {
+    background-image: url("pencil.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+.service-box-2:hover {
+    background-image: url("pencil-hover.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+.service-box-3 {
+    background-image: url("retina.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+.service-box-3:hover {
+    background-image: url("retina-hover.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+.service-box-4 {
+    background-image: url("cap.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+.service-box-4:hover {
+    background-image: url("cap-hover.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+.service-box-5 {
+    background-image: url("user.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+.service-box-5:hover {
+    background-image: url("user-hover.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+.service-box-6 {
+    background-image: url("mail.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+.service-box-6:hover {
+    background-image: url("email.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+.back-image {
+    background-image: url("blur.jpg");
+    background-color: black;
+    background-size: cover;
+    margin: 0%;
+}
+
+/**********FACULTY*********/
+
+.person {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.faculty-box {
+    text-align: center;
+    box-shadow: inset;
+    box-shadow: inset 1px 0 0 0 rgb(255, 255, 255),
+        0.01em 0.01em 1em rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+
+.grid-item {
+    grid-template-columns: auto auto auto auto;
+}
+
+/**********TESTIMONIAL*********/
+
+nav-text-color{
+    color:white;
+}about-style{
+    text-align:center;
+}
+.image-resize{
+    border-radius: 50%;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 7%;
+}
+.client-card{
+    text-align: center;
+    color: black;
+    background-color:white;
+    border-top-right-radius: 15px;
+   border-bottom-left-radius: 15px; 
+   border-top-left-radius: 0%;
+   border-bottom-right-radius: 0%;
+   margin-top: 1em;
+}
+
+/**********BLOG PORTFOLIO*********/
+
+.blogimg {
+    width: 400px;
+    height: 300px;
+}
+
+.blogbox {
+    margin-top: 10px;
+    width: 400px;
+    margin-left: 20px;
+    background-color: white;
+    margin-bottom: 40px;
+   
+}
+.blogbox:hover{
+    box-shadow: inset 1px 0 0 0 rgb(255, 255, 255),
+        0.01em 0.01em 1em rgba(0, 0, 0, 0.3);
+}
+
+.blogdetails {
+    padding: 20px;
+}
+
+
+/**********CONTACT*********/
+
+.contact-image {
+    background-image: url("sky.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contact-box {
+    text-align: center;
+}
+
+.field {
+
+    border: none;
+    height: 3em;
+    width: 25em;
+}
+.field::placeholder,input,textarea{
+    font-weight: lighter;
+    padding-left: 1em;
+    border: none;
+}
+.sub{
+   border-top-right-radius: 15px;
+   border-bottom-left-radius: 15px; 
+   border-top-left-radius: 0%;
+   border-bottom-right-radius: 0%;
+   width:10em;
+   height:3em;
+   text-align: center;
+    }
+    .sub:hover{
+        background-color: #0A2647;
+        color: white;
+    }
+    .map{
+        width: 130%;
+       position: relative;
+       right: 2em; 
+       top: 1em;
+       height:13em;
+       border-top: 3px solid goldenrod;
+    }
+    .map-box{
+        width:130%;
+        margin: 0ch;
+        position: relative;
+        right: 2em; 
+        top:2em;
+    }
