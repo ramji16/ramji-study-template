@@ -1,11 +1,20 @@
 /********************HOME PAGE****************/
 body {
-    overflow-x: hidden;
     scroll-behavior: smooth;
     background-image: url("sky.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment:fixed;
+    background-attachment: fixed;
+    /* overflow-x: hidden; */
+}
+.nav-text-color{
+    color:white;
+}
+#nav-text-color{
+    color:white;
+}
+#nav-text-color:hover{
+    color:yellow;
 }
 
 .navb {
@@ -31,7 +40,7 @@ body {
     color: aliceblue;
     text-align: center;
     top: 10em;
-    margin-top: 10em;
+    
 }
 
 .heading {
@@ -286,7 +295,7 @@ nav-text-color{
 
 .blogbox {
     margin-top: 10px;
-    width: 400px;
+    /* width: 400px; */
     margin-left: 20px;
     background-color: white;
     margin-bottom: 40px;
@@ -340,7 +349,7 @@ nav-text-color{
         color: white;
     }
     .map{
-        width: 130%;
+        width: 1550px;
        position: relative;
        right: 2em; 
        top: 1em;
