@@ -26,22 +26,55 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: Light 300;
 }
-
-#fontc:hover {
-    color: #F49D1A;
-}
-
-.caro {
-    position: absolute;
-     height: 80vh;
+.carous{
+    height: 600px;
 }
 
 .cont {
     position: relative;
     color: aliceblue;
     text-align: center;
-    top: 10em;
+    top: 16em;
     
+}
+@media only screen and (max-width:400px){
+    .carous{
+       height: 800px;
+    }
+    .heading {
+        font-family: 'Oswald', sans-serif;
+        font-size: 10px;
+    }
+    .cont {
+        position: relative;
+        color: aliceblue;
+        text-align: center;
+        top: 16em;
+        font-size: 5px;
+        
+    }
+    .contbtn {
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+        height: 1em;
+        width: 5em;
+        font-weight: 400;
+    }
+    .homeb{
+        position: relative;
+        bottom: 5em;
+    }
+    
+}
+#fontc:hover {
+    color: #F49D1A;
+}
+
+.caro {
+    position: absolute;
+
 }
 
 .heading {
@@ -78,7 +111,7 @@ body {
 
 .main-homec {
     position: relative;
-    /* display: flex; */
+    display: flex;
     margin-top: 20em;
     padding: 15px;
 
