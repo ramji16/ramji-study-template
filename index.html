@@ -22,7 +22,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <script>
+        function aboutus(){
+        var name,course,phone,email;
+        name= document.getElementById("name").value;
+        course= document.getElementById("course").value;
+        phone= document.getElementById("phone").value;
+        email= document.getElementById("email").value;
 
+        var data={"name":name,"course":course,"phone":phone,"email":email};
+        console.log(data);
+        }
+        
+        
+    </script>
 </head>
 
 <body>
@@ -53,7 +66,7 @@
 
         <section id="home" style="position: relative;top:-.5em;background-color: white;">
         <div id="carouselExampleControls" class="carousel slide caro" data-ride="carousel">
-            <div class="carousel-inner" style="height: 600px;">
+            <div class="carousel-inner carous" >
                 <div class="carousel-item active">
                     <img src="im1.jpg" class="d-block w-100" alt="...">
                 </div>
@@ -75,11 +88,11 @@
         </div>
         <div class="cont">
             <h1 class="heading">Best design for Education</h1>
-            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="heading-line">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <button class="btn btn-warning contbtn">CONTACT</button>
         </div>
         <div class="main-homec">
-            <div class="row">
+            <div class="row homeb">
                 <div class="homebox col-lg-3 row-sm-12">
                     <div class="homec">
                         <h4>Scholarship faculty</h4>
@@ -150,11 +163,11 @@
                 </div>
                 <div class="form-main">
                     <h3 class="heading">Get Us to call you back</h3>
-                    <input class="form-control mt-3" type="text" placeholder="Full name">
-                    <input class="form-control mt-3" type="text" placeholder="Course of interest">
-                    <input class="form-control mt-3" type="text" placeholder="phone no">
-                    <input class="form-control mt-3" type="text" placeholder="Email">
-                    <button class="btn btn-warning button mt-3">submit</button>
+                    <input class="form-control mt-3" type="text" placeholder="Full name" id="name">
+                    <input class="form-control mt-3" type="text" placeholder="Course of interest" id="course">
+                    <input class="form-control mt-3" type="text" placeholder="phone no" id="phone">
+                    <input class="form-control mt-3" type="text" placeholder="Email" id="email">
+                    <button class="btn btn-warning button mt-3" onclick="aboutus()">submit</button>
                 </div>
                 <!-- <div class="col-lg-6 col-sm-12"  >
                     <form action="" class="form-main">
